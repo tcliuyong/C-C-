@@ -1,0 +1,4 @@
+void *task1(void *X);
+void *task2(void *X);
+void *task3(void *X);
+

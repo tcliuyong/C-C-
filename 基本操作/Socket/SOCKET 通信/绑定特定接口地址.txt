@@ -1,0 +1,8 @@
+sck_inet=（socketAF_INET，SOCK——STREAM，0）；
+memset(&adr_inet,0,sizeof(adr_inet));
+adr_inet.sin_family=AF_INET;
+adr_inet.sin_port=htons(9000);
+adr_inet.sin_addr.s_addr=inet_addr("192,168,0.1");
+if(adr_inet.sin_addr.s_addr==INADDR_NONE)
+abort();
+
